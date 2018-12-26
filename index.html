@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content = "width = device-width,inital-scale = 1，maximum-scale = 1">
+	<title>移动页面demo</title>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+	<header>
+		<div class = "logo"></div>
+		<button id = 'xx'>菜单</button>
+		<ul id = 'yy' class = "nav">
+			<li><a href = "#"></a>导航1</li>
+			<li><a href = "#"></a>导航2</li>
+			<li><a href = "#"></a>导航3</li>
+			<li><a href = "#"></a>导航4</li>
+			<li><a href = "#"></a>导航5</li>
+		</ul>
+
+		<ul class = "nav2">
+			<li><a href = "#"></a>导航1</li>
+			<li><a href = "#"></a>导航2</li>
+			<li><a href = "#"></a>导航3</li>
+			<li><a href = "#"></a>导航4</li>
+			<li><a href = "#"></a>导航5</li>
+		</ul>
+	</header>
+	<script>
+		xx.onclick = function(){
+				yy.classList.toggle('active')
+		}
+	</script>
+</body>
+</html>
